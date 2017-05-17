@@ -13,8 +13,6 @@ cnt_inval= 0
 cnt_mul_ses = 0
 avg_time=[]
 gameid=[]
-st = pd.DataFrame()
-time = pd.DataFrame()
 game_ttl=[]
 game_non_cons=[]
 for i in range(len(df)-1):
