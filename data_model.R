@@ -5,7 +5,6 @@ library(lubridate)
 library(dplyr)
 library(magrittr)
 system.time(df <- ndjson::stream_in("ggevent.json"))
-View(df)
 df$params<-NULL
 colnames(df)<- c('gameid','timestamp','ai5','debug','random','mobile_vesion','eventtype','ts')
 df$debug<-NULL
