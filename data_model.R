@@ -20,8 +20,6 @@ cnt_inval= 0
 cnt_mul_ses = 0
 avg_time <- vector()
 gameid<- vector()
-st = data.frame()
-time = data.frame()
 game_ttl <- vector()
 game_non_cons <- vector()
 
