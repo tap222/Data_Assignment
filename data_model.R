@@ -7,7 +7,7 @@ library(lubridate)
 library(dplyr)
 library(magrittr)
 #system.time(df <- ndjson::stream_in("ggevent.json"))
-df<-read.csv("count_1.csv")
+df<-read.csv("Features.csv")
 dim(df)
 View(df)
 df$params<-NULL
